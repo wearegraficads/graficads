@@ -16,7 +16,7 @@ export default (() => {
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/6081891b123639001f37cb52/images/favicon.svg?v=2021-04-22T18:40:16.320Z"} type={"image/x-icon"} />
 		</Helmet>
 		<Section
-			padding="60px 0"
+			padding="60px 0 100px 0"
 			sm-padding="40px 0"
 			min-height="600px"
 			sm-min-height="auto"
@@ -106,17 +106,54 @@ export default (() => {
 				</Link>
 			</StackItem>
 		</Section>
-		<Section color="#000000" background="#000000">
-			<Override slot="SectionContent" margin="0px 64px 0px 64px" />
-			<Text font="normal normal 700 42px/0.9 --fontFamily-googleInter" margin="50px 0px 16px 50px" color="#ffffff" align-self="center">
+		<Section sm-padding="40px 0" background="#000000" padding="0 0 0 0">
+			<Override slot="SectionContent" margin="0px 64px 0px 64px" padding="0px 0px 0 0px" />
+			<Text
+				border-color="#ffffff"
+				font="600 42px --fontFamily-googleInter"
+				text-align="center"
+				color="#ffffff"
+				padding="0px 0px 0px 0px"
+			>
 				Richiedi i tuoi progetti in modo semplice
 			</Text>
-		</Section>
-		<Section padding="64px 0" sm-padding="40px 0" background="#000000">
-			<Stack background="#000000">
+			<Text
+				font="normal normal 400 20px/1.6 --fontFamily-googleInter"
+				color="rgba(255, 255, 255, 0.99)"
+				text-align="center"
+				flex="1 1 auto"
+				align-self="auto"
+				margin="0px 0px 0 50px"
+			>
+				Un grafico sempre a disposizione{" "}
+				<Strong
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+					color="#1ed761"
+				>
+					senza
+				</Strong>
+				{" "}
+				<Strong
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+					color="#1ed761"
+				>
+					assumerlo.
+				</Strong>
+			</Text>
+			<Stack background="#000000" margin="50px -16px -16px -16px">
 				<StackItem width="50%" lg-width="100%">
-					<Override slot="StackItemContent" color="--dark" padding="110px 64px 98px 0px" flex-direction="column" />
-					<Text font="normal normal 700 30px/0.9 --fontFamily-googleInter" margin="50px 0px 16px 50px" color="#1ed761">
+					<Override slot="StackItemContent" color="--dark" flex-direction="column" />
+					<Text font="normal normal 700 30px/0.9 --fontFamily-googleInter" margin="140px 0px 16px 50px" color="#1ed761">
 						Come funziona ?
 					</Text>
 					<Text font="normal normal 700 42px/1.3 --fontFamily-googleInter" margin="0px 0px 16px 50px" color="rgba(255, 255, 255, 0.99)">
@@ -130,16 +167,24 @@ export default (() => {
 				<StackItem width="50%" lg-width="100%">
 					<Override slot="StackItemContent" flex-direction="column" />
 					<Stack>
-						<StackItem width="100%" lg-width="33.3%" md-width="100%">
-							<Override slot="StackItemContent" padding-bottom="100%" background="url(https://uploads.quarkly.io/6081891b123639001f37cb52/images/Home_1.gif?v=2021-04-30T15:12:58.484Z) center/cover" />
+						<StackItem width="100%" lg-width="33.3%" md-width="100%" color="rgba(0, 0, 0, 0)">
+							<Override slot="StackItemContent" padding-bottom="100%" background="url(https://uploads.quarkly.io/6081891b123639001f37cb52/images/Home_1.gif?v=2021-04-30T15:12:58.484Z) center/cover" margin="-50px 0px 0px 0px" />
 						</StackItem>
 					</Stack>
 				</StackItem>
 			</Stack>
 		</Section>
-		<Section padding="64px 0" sm-padding="40px 0" background="#000000">
+		<Section sm-padding="40px 0" background="#000000">
 			<Stack background="#000000">
-				<StackItem width="50%" lg-width="100%">
+				<StackItem width="50%" lg-width="100%" margin="-35px 0px 0px 0px">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Stack>
+						<StackItem width="100%" lg-width="33.3%" md-width="100%">
+							<Override slot="StackItemContent" padding-bottom="100%" background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/6081891b123639001f37cb52/images/slack_def.png?v=2021-04-30T16:49:58.537Z) 0% 00% /contain no-repeat scroll padding-box" width="680px" />
+						</StackItem>
+					</Stack>
+				</StackItem>
+				<StackItem width="50%" lg-width="100%" margin="-35px 0px 0px 0px">
 					<Override slot="StackItemContent" color="--dark" padding="98px 64px 98px 0px" flex-direction="column" />
 					<Text font="normal normal 700 42px/1.0 --fontFamily-googleInter" margin="50px 0px 16px 50px" color="#1ed761">
 						Inviaci le tue richieste
@@ -171,26 +216,10 @@ export default (() => {
 						dove protrai comunicare con il tuo designer personale, aggiungere membri del tuo team e richiederci semplicemente le tue grafiche.
 					</Text>
 				</StackItem>
-				<StackItem width="50%" lg-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Stack>
-						<StackItem width="100%" lg-width="33.3%" md-width="100%">
-							<Override slot="StackItemContent" padding-bottom="100%" background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/6081891b123639001f37cb52/images/graficads_slackhome.png?v=2021-04-30T15:37:09.479Z) 0% 00% /contain no-repeat scroll padding-box" width="680px" />
-						</StackItem>
-					</Stack>
-				</StackItem>
 			</Stack>
 		</Section>
 		<Section padding="64px 0" sm-padding="40px 0" background="#000000">
 			<Stack background="#000000">
-				<StackItem width="50%" lg-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Stack>
-						<StackItem width="100%" lg-width="33.3%" md-width="100%">
-							<Override slot="StackItemContent" padding-bottom="100%" background="url(https://images.unsplash.com/photo-1575999080555-3f7a698dd8d9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80) center/cover" />
-						</StackItem>
-					</Stack>
-				</StackItem>
 				<StackItem width="50%" lg-width="100%">
 					<Override slot="StackItemContent" color="--dark" padding="98px 64px 98px 0px" flex-direction="column" />
 					<Text font="normal normal 700 42px/1.0 --fontFamily-googleInter" margin="50px 0px 16px 50px" color="#1ed761">
@@ -213,26 +242,97 @@ export default (() => {
 						riceverai lavori di alta qualità e completamente personalizzati.
 					</Text>
 				</StackItem>
-			</Stack>
-		</Section>
-		<Section padding="64px 0" sm-padding="40px 0" background="#000000">
-			<Stack background="#000000">
-				<StackItem width="50%" lg-width="100%">
-					<Override slot="StackItemContent" color="--dark" padding="98px 64px 98px 0px" flex-direction="column" />
-					<Text font="normal normal 700 42px/1.0 --fontFamily-googleInter" margin="50px 0px 16px 50px" color="#1ed761">
-						Scarica le tue grafiche
-					</Text>
-					<Text font="normal normal 400 20px/1.3 --fontFamily-googleInter" margin="0px 0px 16px 50px" color="rgba(255, 255, 255, 0.99)">
-						Se non sei completamente soddisfatto, puoi richiedere tutte le revisioni necessarie.
-						<br />
-						Una volta approvato il progetto, sarai pronto a scaricarlo e lanciarlo online!
-					</Text>
-				</StackItem>
 				<StackItem width="50%" lg-width="100%">
 					<Override slot="StackItemContent" flex-direction="column" />
 					<Stack>
 						<StackItem width="100%" lg-width="33.3%" md-width="100%">
 							<Override slot="StackItemContent" padding-bottom="100%" background="url(https://images.unsplash.com/photo-1575999080555-3f7a698dd8d9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80) center/cover" />
+						</StackItem>
+					</Stack>
+				</StackItem>
+			</Stack>
+		</Section>
+		<Section padding="64px 0" sm-padding="40px 0" background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/6081891b123639001f37cb52/images/bg-.png?v=2021-04-30T19:02:35.143Z) 0% 0% /cover no-repeat scroll padding-box">
+			<Stack background="#">
+				<StackItem width="50%" lg-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+				</StackItem>
+				<StackItem width="50%" lg-width="100%">
+					<Override slot="StackItemContent" color="--dark" padding="98px 64px 98px 0px" flex-direction="column" />
+					<Text font="normal normal 700 42px/1.0 --fontFamily-googleInter" margin="-50px 0px 16px 50px" color="#1ed761">
+						Scarica le tue grafiche
+					</Text>
+					<Text font="normal normal 400 20px/1.3 --fontFamily-googleInter" margin="0px 0px 16px 50px" color="rgba(255, 255, 255, 0.99)" border-color="rgba(0, 0, 0, 0.99)">
+						Se non sei completamente soddisfatto, puoi richiedere tutte le revisioni necessarie.
+						<br />
+						Una volta approvato il progetto, sarai pronto a scaricarlo e lanciarlo online!
+					</Text>
+				</StackItem>
+			</Stack>
+		</Section>
+		<Section sm-padding="40px 0" padding="0 0 0 0" background="url(https://uploads.quarkly.io/6081891b123639001f37cb52/images/pricing.svg?v=2021-04-30T20:13:53.612Z) 0% 0%/contain no-repeat,#f7f9fc">
+			<Override slot="SectionContent" margin="0px 64px 0px 64px" padding="0px 0px 0 0px" />
+			<Text
+				border-color="#ffffff"
+				font="600 42px --fontFamily-googleInter"
+				text-align="center"
+				color="#000000"
+				padding="0px 0px 0px 0px"
+			>
+				I nostri piani
+			</Text>
+			<Text
+				font="normal normal 400 20px/1.6 --fontFamily-googleInter"
+				color="rgba(0, 0, 0, 0.99)"
+				text-align="center"
+				flex="1 1 auto"
+				align-self="auto"
+				margin="0px 0px 0 50px"
+			>
+				Prezzi pensati per aziende di{" "}
+				<Strong
+					color="#1ed761"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+				>
+					tutte le dimensioni.
+				</Strong>
+			</Text>
+			<Stack margin="50px -16px -16px -16px">
+				<StackItem width="50%" lg-width="100%">
+					<Override slot="StackItemContent" color="--dark" flex-direction="column" />
+					<Button
+						border-radius="100px"
+						font="normal 300 15px/1.5 --fontFamily-googleInter"
+						background="#1ed761"
+						flex="initial"
+						align-self="flex-start"
+						text-align="left"
+						margin="260px 0px 0px 120px"
+					>
+						Prova ora -&gt;
+					</Button>
+				</StackItem>
+				<StackItem width="50%" lg-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" />
+					<Stack>
+						<Button
+							border-radius="100px"
+							font="normal 300 15px/1.5 --fontFamily-googleInter"
+							background="#1ed761"
+							flex="initial"
+							text-align="left"
+							align-self="flex-start"
+							margin="275px 0px 0px 30px"
+						>
+							Prova ora -&gt;
+						</Button>
+						<StackItem width="100%" lg-width="33.3%" md-width="100%" color="rgba(0, 0, 0, 0)">
+							<Override slot="StackItemContent" padding-bottom="100%" margin="-50px 0px 0px 0px" />
 						</StackItem>
 					</Stack>
 				</StackItem>
