@@ -115,7 +115,7 @@ export default (() => {
 		<Section padding="64px 0" sm-padding="40px 0" background="#000000">
 			<Stack background="#000000">
 				<StackItem width="50%" lg-width="100%">
-					<Override slot="StackItemContent" color="--dark" padding="98px 64px 98px 0px" flex-direction="column" />
+					<Override slot="StackItemContent" color="--dark" padding="110px 64px 98px 0px" flex-direction="column" />
 					<Text font="normal normal 700 30px/0.9 --fontFamily-googleInter" margin="50px 0px 16px 50px" color="#1ed761">
 						Come funziona ?
 					</Text>
