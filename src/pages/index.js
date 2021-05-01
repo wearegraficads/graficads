@@ -168,7 +168,7 @@ export default (() => {
 					<Override slot="StackItemContent" flex-direction="column" />
 					<Stack>
 						<StackItem width="100%" lg-width="33.3%" md-width="100%" color="rgba(0, 0, 0, 0)">
-							<Override slot="StackItemContent" padding-bottom="100%" background="url(https://uploads.quarkly.io/6081891b123639001f37cb52/images/Home_1.gif?v=2021-04-30T15:12:58.484Z) center/cover" margin="-50px 0px 0px 0px" />
+							<Override slot="StackItemContent" padding-bottom="100%" background="url(https://uploads.quarkly.io/6081891b123639001f37cb52/images/Home.gif?v=2021-04-30T22:27:26.256Z) center/cover" margin="-50px 0px 0px 0px" />
 						</StackItem>
 					</Stack>
 				</StackItem>
@@ -246,7 +246,7 @@ export default (() => {
 					<Override slot="StackItemContent" flex-direction="column" />
 					<Stack>
 						<StackItem width="100%" lg-width="33.3%" md-width="100%">
-							<Override slot="StackItemContent" padding-bottom="100%" background="url(https://images.unsplash.com/photo-1575999080555-3f7a698dd8d9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80) center/cover" />
+							<Override slot="StackItemContent" padding-bottom="100%" background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/6081891b123639001f37cb52/images/graphic.png?v=2021-05-01T13:14:18.650Z) 57% 0% /cover no-repeat scroll padding-box" />
 						</StackItem>
 					</Stack>
 				</StackItem>
@@ -307,11 +307,10 @@ export default (() => {
 					<Override slot="StackItemContent" color="--dark" flex-direction="column" />
 					<Button
 						border-radius="100px"
-						font="normal 300 15px/1.5 --fontFamily-googleInter"
+						font="normal 400 14px/1.5 --fontFamily-googleInter"
 						background="#1ed761"
 						flex="initial"
 						align-self="flex-start"
-						text-align="left"
 						margin="260px 0px 0px 120px"
 					>
 						Prova ora -&gt;
