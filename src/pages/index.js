@@ -252,7 +252,7 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Section padding="64px 0" sm-padding="40px 0" background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/6081891b123639001f37cb52/images/home2.png?v=2021-05-03T09:36:07.797Z) 0% 0% /cover repeat scroll padding-box">
+		<Section sm-padding="40px 0" background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/6081891b123639001f37cb52/images/home2.png?v=2021-05-03T09:36:07.797Z) 0% 0% /cover repeat scroll padding-box" padding="24px 0 80px 0">
 			<Stack background="#">
 				<StackItem width="50%" lg-width="100%">
 					<Override slot="StackItemContent" flex-direction="column" />
@@ -334,6 +334,61 @@ export default (() => {
 							<Override slot="StackItemContent" padding-bottom="100%" margin="-50px 0px 0px 0px" />
 						</StackItem>
 					</Stack>
+				</StackItem>
+			</Stack>
+		</Section>
+		<Section
+			padding="60px 0 60px 0"
+			sm-padding="40px 0"
+			min-height="600px"
+			sm-min-height="auto"
+			display="flex"
+			flex-direction="column"
+			background="url(https://uploads.quarkly.io/6081891b123639001f37cb52/images/confronto_Tavola%20disegno%201%20copia%206.svg?v=2021-05-03T11:17:11.636Z) 0% -10%/contain,#f7f9fc"
+			margin="-330px 0 0 0"
+		>
+			<Override slot="SectionContent" margin="-80px 64px 0px 64px" />
+			<Text
+				border-color="#ffffff"
+				font="600 42px --fontFamily-googleInter"
+				text-align="left"
+				color="#000000"
+				padding="0px 0px 0px 0px"
+			>
+				{"     "}Confronta le funzionalità
+			</Text>
+			<Text
+				font="normal normal 400 20px/1.6 --fontFamily-googleInter"
+				color="rgba(0, 0, 0, 0.99)"
+				text-align="left"
+				align-self="flex-start"
+				margin="0px 0px 0 50px"
+			>
+				{" "}Scegli il piano{" "}
+				<Strong
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+				>
+					in linea con le tue esigenze.
+				</Strong>
+			</Text>
+			<Stack color="--grey" font="--base">
+				<StackItem width="50%" md-width="100%">
+					<Text
+						as="h1"
+						margin="0px"
+						font="--headline1"
+						md-font="--headline2"
+						color="--dark"
+						max-width="850px"
+					/>
+				</StackItem>
+				<StackItem width="50%" md-width="100%">
+					<Text margin="0px" />
 				</StackItem>
 			</Stack>
 		</Section>
