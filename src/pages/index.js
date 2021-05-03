@@ -246,13 +246,13 @@ export default (() => {
 					<Override slot="StackItemContent" flex-direction="column" />
 					<Stack>
 						<StackItem width="100%" lg-width="33.3%" md-width="100%">
-							<Override slot="StackItemContent" padding-bottom="100%" background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/6081891b123639001f37cb52/images/graphic.png?v=2021-05-01T13:14:18.650Z) 57% 0% /cover no-repeat scroll padding-box" />
+							<Override slot="StackItemContent" padding-bottom="100%" background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/6081891b123639001f37cb52/images/graficads.png?v=2021-05-03T09:12:35.110Z) 57% 0% /cover no-repeat scroll padding-box" />
 						</StackItem>
 					</Stack>
 				</StackItem>
 			</Stack>
 		</Section>
-		<Section padding="64px 0" sm-padding="40px 0" background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/6081891b123639001f37cb52/images/bg-.png?v=2021-04-30T19:02:35.143Z) 0% 0% /cover no-repeat scroll padding-box">
+		<Section padding="64px 0" sm-padding="40px 0" background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/6081891b123639001f37cb52/images/home2.png?v=2021-05-03T09:36:07.797Z) 0% 0% /cover repeat scroll padding-box">
 			<Stack background="#">
 				<StackItem width="50%" lg-width="100%">
 					<Override slot="StackItemContent" flex-direction="column" />
@@ -270,7 +270,7 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Section sm-padding="40px 0" padding="0 0 0 0" background="url(https://uploads.quarkly.io/6081891b123639001f37cb52/images/pricing.svg?v=2021-04-30T20:13:53.612Z) 0% 0%/contain no-repeat,#f7f9fc">
+		<Section sm-padding="40px 0" background="url(https://uploads.quarkly.io/6081891b123639001f37cb52/images/pricing.png?v=2021-05-03T09:27:07.463Z) 0% 0%/contain no-repeat,#f7f9fc">
 			<Override slot="SectionContent" margin="0px 64px 0px 64px" padding="0px 0px 0 0px" />
 			<Text
 				border-color="#ffffff"
@@ -311,7 +311,7 @@ export default (() => {
 						background="#1ed761"
 						flex="initial"
 						align-self="flex-start"
-						margin="260px 0px 0px 120px"
+						margin="245px 0px 0px 120px"
 					>
 						Prova ora -&gt;
 					</Button>
@@ -326,7 +326,7 @@ export default (() => {
 							flex="initial"
 							text-align="left"
 							align-self="flex-start"
-							margin="275px 0px 0px 30px"
+							margin="260px 0px 0px 30px"
 						>
 							Prova ora -&gt;
 						</Button>
