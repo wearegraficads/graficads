@@ -246,7 +246,7 @@ export default (() => {
 					<Override slot="StackItemContent" flex-direction="column" />
 					<Stack>
 						<StackItem width="100%" lg-width="33.3%" md-width="100%">
-							<Override slot="StackItemContent" padding-bottom="100%" background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/6081891b123639001f37cb52/images/graficads.png?v=2021-05-03T09:12:35.110Z) 57% 0% /cover no-repeat scroll padding-box" />
+							<Override slot="StackItemContent" padding-bottom="100%" background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/6081891b123639001f37cb52/images/graphic.png?v=2021-05-03T10:53:16.872Z) 0% 0% /contain repeat scroll padding-box" />
 						</StackItem>
 					</Stack>
 				</StackItem>
@@ -270,7 +270,7 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Section sm-padding="40px 0" background="url(https://uploads.quarkly.io/6081891b123639001f37cb52/images/pricing.png?v=2021-05-03T09:27:07.463Z) 0% 0%/contain no-repeat,#f7f9fc">
+		<Section sm-padding="40px 0" background="url(https://uploads.quarkly.io/6081891b123639001f37cb52/images/pricing.png?v=2021-05-03T10:30:25.059Z) 0% 45%/contain no-repeat,#f7f9fc">
 			<Override slot="SectionContent" margin="0px 64px 0px 64px" padding="0px 0px 0 0px" />
 			<Text
 				border-color="#ffffff"
@@ -336,6 +336,17 @@ export default (() => {
 					</Stack>
 				</StackItem>
 			</Stack>
+		</Section>
+		<Section background-color="--dark" text-align="center" padding="32px 0">
+			<Link
+				href="mailto:hello@company.com"
+				text-decoration-line="none"
+				variant="--base"
+				color="--grey"
+				hover-color="--primary"
+			>
+				© COPYRIGHT 2021 Graficads– P.Iva 03090700646 – Tutti i diritti sono riservati – Privacy Policy
+			</Link>
 		</Section>
 		<Link
 			font={"--capture"}
