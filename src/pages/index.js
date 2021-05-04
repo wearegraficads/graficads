@@ -4,7 +4,7 @@ import { Theme, Link, Image, Text, Strong, Hr, Button, Icon, Box } from "@quarkl
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Section, Stack } from "@quarkly/components";
-import { GoPlus } from "react-icons/go";
+import { IoMdFolderOpen, IoIosAttach, IoIosCalendar, IoMdCard } from "react-icons/io";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
@@ -253,7 +253,7 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Section sm-padding="40px 0" background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/6081891b123639001f37cb52/images/home2.png?v=2021-05-03T09:36:07.797Z) 0% 0% /cover repeat scroll padding-box" padding="24px 0 80px 0">
+		<Section sm-padding="40px 0" background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/6081891b123639001f37cb52/images/home2.png?v=2021-05-03T09:36:07.797Z) 0% 0% /cover repeat scroll padding-box">
 			<Stack background="#">
 				<StackItem width="50%" lg-width="100%">
 					<Override slot="StackItemContent" flex-direction="column" />
@@ -271,7 +271,7 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Section sm-padding="40px 0" background="url(https://uploads.quarkly.io/6081891b123639001f37cb52/images/pricing.png?v=2021-05-03T10:30:25.059Z) 0% 45%/contain no-repeat,#f7f9fc">
+		<Section sm-padding="40px 0" background="url(https://uploads.quarkly.io/6081891b123639001f37cb52/images/pricing.png?v=2021-05-03T10:30:25.059Z) 0% 45%/contain no-repeat,#f7f9fc" margin="20px 0 0 0">
 			<Override slot="SectionContent" margin="0px 64px 0px 64px" padding="0px 0px 0 0px" />
 			<Text
 				border-color="#ffffff"
@@ -343,7 +343,7 @@ export default (() => {
 			sm-padding="40px 0"
 			min-height="600px"
 			sm-min-height="auto"
-			background="url(https://uploads.quarkly.io/6081891b123639001f37cb52/images/funzionalita_Tavola%20disegno%201%20copia%206.svg?v=2021-05-04T08:13:12.132Z) center/100% no-repeat,#f7f9fc"
+			background="url(https://uploads.quarkly.io/6081891b123639001f37cb52/images/funzionalita_Tavola%20disegno%201%20copia%207.svg?v=2021-05-04T08:38:22.380Z),#f7f9fc"
 			margin="-330px 0 0 0"
 			justify-content="center"
 		>
@@ -425,8 +425,8 @@ export default (() => {
 					left="0"
 					size="36px"
 					color="#1ed761"
-					category="go"
-					icon={GoPlus}
+					category="io"
+					icon={IoMdFolderOpen}
 				/>
 				<Text as="h3" font="normal 500 16px/1.2 --fontFamily-googleInter" margin="10px 0">
 					Cosa posso richiedere?
@@ -452,8 +452,8 @@ export default (() => {
 					left="0"
 					size="36px"
 					color="#1ed761"
-					category="go"
-					icon={GoPlus}
+					category="io"
+					icon={IoIosAttach}
 				/>
 				<Text as="h3" font="normal 500 16px/1.2 --fontFamily-googleInter" margin="10px 0">
 					Utilizzate stesse grafiche per più clienti?
@@ -479,8 +479,8 @@ export default (() => {
 					left="0"
 					size="36px"
 					color="#1ed761"
-					category="go"
-					icon={GoPlus}
+					category="io"
+					icon={IoIosCalendar}
 				/>
 				<Text as="h3" font="normal 500 16px/1.2 --fontFamily-googleInter" margin="10px 0">
 					Come funziona l'abbonamento?
@@ -513,8 +513,8 @@ export default (() => {
 					left="0"
 					size="36px"
 					color="#1ed761"
-					category="go"
-					icon={GoPlus}
+					category="io"
+					icon={IoMdCard}
 				/>
 				<Text as="h3" font="normal 500 16px/1.2 --fontFamily-googleInter" margin="10px 0">
 					Quali metodi di pagamento accettate?
