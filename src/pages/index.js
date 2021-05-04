@@ -343,10 +343,9 @@ export default (() => {
 			sm-padding="40px 0"
 			min-height="600px"
 			sm-min-height="auto"
-			display="flex"
-			flex-direction="column"
 			background="url(https://uploads.quarkly.io/6081891b123639001f37cb52/images/confronto_Tavola%20disegno%201%20copia%206.svg?v=2021-05-03T11:17:11.636Z),#f7f9fc"
 			margin="-330px 0 0 0"
+			justify-content="center"
 		>
 			<Override slot="SectionContent" margin="-80px 64px 0px 64px" />
 			<Text
