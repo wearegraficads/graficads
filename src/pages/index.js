@@ -271,7 +271,7 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Section sm-padding="40px 0" background="url(https://uploads.quarkly.io/6081891b123639001f37cb52/images/pricing.png?v=2021-05-03T10:30:25.059Z) 0% 45%/contain no-repeat,#f7f9fc" margin="20px 0 0 0">
+		<Section sm-padding="40px 0" background="url(https://uploads.quarkly.io/6081891b123639001f37cb52/images/pricing.png?v=2021-05-03T10:30:25.059Z) 0% 45%/contain no-repeat,#f7f9fc">
 			<Override slot="SectionContent" margin="0px 64px 0px 64px" padding="0px 0px 0 0px" />
 			<Text
 				border-color="#ffffff"
@@ -303,7 +303,7 @@ export default (() => {
 					tutte le dimensioni.
 				</Strong>
 			</Text>
-			<Stack margin="50px -16px -16px -16px">
+			<Stack margin="50px -16px px -16px">
 				<StackItem width="50%" lg-width="100%">
 					<Override slot="StackItemContent" color="--dark" flex-direction="column" />
 					<Button
@@ -339,21 +339,21 @@ export default (() => {
 			</Stack>
 		</Section>
 		<Section
-			padding="60px 0 60px 0"
 			sm-padding="40px 0"
 			min-height="600px"
 			sm-min-height="auto"
-			background="url(https://uploads.quarkly.io/6081891b123639001f37cb52/images/funzionalita_Tavola%20disegno%201%20copia%207.svg?v=2021-05-04T08:38:22.380Z) 0% 0%/contain no-repeat,#f7f9fc"
-			margin="-330px 0 0 0"
+			background="url(https://uploads.quarkly.io/6081891b123639001f37cb52/images/funzionalita_Tavola%20disegno%201%20copia%207.svg?v=2021-05-04T08:38:22.380Z) 0% 50%/cover no-repeat,#f7f9fc"
 			justify-content="center"
+			text-align="center"
+			margin="-200px 0 0 0"
 		>
-			<Override slot="SectionContent" margin="-80px 64px 0px 64px" />
+			<Override slot="SectionContent" text-align="center" />
 			<Text
 				border-color="#ffffff"
 				font="600 42px --fontFamily-googleInter"
 				text-align="left"
 				color="#000000"
-				padding="0px 0px 0px 0px"
+				margin="-50px 0px 16px 0px"
 			>
 				{"     "}Confronta le funzionalità
 			</Text>
@@ -362,7 +362,7 @@ export default (() => {
 				color="rgba(0, 0, 0, 0.99)"
 				text-align="left"
 				align-self="flex-start"
-				margin="0px 0px 0 50px"
+				margin="0px 0px 30px 50px"
 			>
 				{" "}Scegli il piano{" "}
 				<Strong
@@ -392,13 +392,7 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Section
-			background-color="--dark"
-			text-align="center"
-			padding="32px 0"
-			background="#f7f9fc"
-			margin="-100px 0 0 0"
-		>
+		<Section background-color="--dark" text-align="center" padding="32px 0" background="#f7f9fc">
 			<Override slot="SectionContent" border-width="0px" />
 			<Text
 				border-color="#ffffff"
