@@ -343,7 +343,7 @@ export default (() => {
 			sm-padding="40px 0"
 			min-height="600px"
 			sm-min-height="auto"
-			background="url(https://uploads.quarkly.io/6081891b123639001f37cb52/images/confronto_Tavola%20disegno%201%20copia%206.svg?v=2021-05-03T11:17:11.636Z),#f7f9fc"
+			background="url(https://uploads.quarkly.io/6081891b123639001f37cb52/images/funzionalita_Tavola%20disegno%201%20copia%206.svg?v=2021-05-04T08:13:12.132Z) center/100% no-repeat,#f7f9fc"
 			margin="-330px 0 0 0"
 			justify-content="center"
 		>
@@ -428,10 +428,10 @@ export default (() => {
 					category="go"
 					icon={GoPlus}
 				/>
-				<Text as="h3" font="normal 500 20px/1.2 --fontFamily-googleInter" margin="10px 0">
+				<Text as="h3" font="normal 500 16px/1.2 --fontFamily-googleInter" margin="10px 0">
 					Cosa posso richiedere?
 				</Text>
-				<Text as="p" margin="10px 0" color="--greyD2" font="20px --fontFamily-googleInter">
+				<Text as="p" margin="10px 0" color="--greyD2" font="16px --fontFamily-googleInter">
 					Puoi richiederci{" "}
 					<Strong>
 						grafiche statiche o animate
@@ -455,10 +455,10 @@ export default (() => {
 					category="go"
 					icon={GoPlus}
 				/>
-				<Text as="h3" font="normal 500 20px/1.2 --fontFamily-googleInter" margin="10px 0">
+				<Text as="h3" font="normal 500 16px/1.2 --fontFamily-googleInter" margin="10px 0">
 					Utilizzate stesse grafiche per più clienti?
 				</Text>
-				<Text as="p" margin="10px 0" color="--greyD2" font="20px --fontFamily-googleInter">
+				<Text as="p" margin="10px 0" color="--greyD2" font="16px --fontFamily-googleInter">
 					Ovviamente no! Ciascuno dei nostri progetti è fatto apposta per te e viene realizzato in base al tuo brand, alla tua richiesta ed al messaggio che vuoi trasmettere. Inoltre, è{" "}
 					<Strong>
 						tuo al 100%
@@ -482,10 +482,10 @@ export default (() => {
 					category="go"
 					icon={GoPlus}
 				/>
-				<Text as="h3" font="normal 500 20px/1.2 --fontFamily-googleInter" margin="10px 0">
+				<Text as="h3" font="normal 500 16px/1.2 --fontFamily-googleInter" margin="10px 0">
 					Come funziona l'abbonamento?
 				</Text>
-				<Text as="p" margin="10px 0" color="--greyD2" font="20px --fontFamily-googleInter">
+				<Text as="p" margin="10px 0" color="--greyD2" font="16px --fontFamily-googleInter">
 					Completata l'iscrizione, usufruirai  di tutti i servizi contenuti all’interno del tipo di piano acquistato fino al prossimo rinnovo.{" "}
 					<Strong
 						overflow-wrap="normal"
@@ -516,10 +516,10 @@ export default (() => {
 					category="go"
 					icon={GoPlus}
 				/>
-				<Text as="h3" font="normal 500 20px/1.2 --fontFamily-googleInter" margin="10px 0">
+				<Text as="h3" font="normal 500 16px/1.2 --fontFamily-googleInter" margin="10px 0">
 					Quali metodi di pagamento accettate?
 				</Text>
-				<Text as="p" margin="10px 0" color="--greyD2" font="20px --fontFamily-googleInter">
+				<Text as="p" margin="10px 0" color="--greyD2" font="16px --fontFamily-googleInter">
 					Accettiamo i seguenti tipi di pagamenti: paypal e tutte le carte di credito.
 				</Text>
 			</Box>
