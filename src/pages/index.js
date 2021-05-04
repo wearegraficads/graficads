@@ -343,7 +343,7 @@ export default (() => {
 			sm-padding="40px 0"
 			min-height="600px"
 			sm-min-height="auto"
-			background="url(https://uploads.quarkly.io/6081891b123639001f37cb52/images/funzionalita_Tavola%20disegno%201%20copia%207.svg?v=2021-05-04T08:38:22.380Z),#f7f9fc"
+			background="url(https://uploads.quarkly.io/6081891b123639001f37cb52/images/funzionalita_Tavola%20disegno%201%20copia%207.svg?v=2021-05-04T08:38:22.380Z) 0% 0%/contain no-repeat,#f7f9fc"
 			margin="-330px 0 0 0"
 			justify-content="center"
 		>
@@ -529,10 +529,11 @@ export default (() => {
 				href="mailto:hello@company.com"
 				text-decoration-line="none"
 				variant="--base"
-				color="--grey"
+				color="#ffffff"
 				hover-color="--primary"
+				font="15px --fontFamily-googleInter"
 			>
-				© COPYRIGHT 2021 Graficads– P.Iva 03090700646 – Tutti i diritti sono riservati – Privacy Policy
+				© COPYRIGHT 2021 Graficads – P.Iva 03090700646 – Tutti i diritti sono riservati – Privacy Policy
 			</Link>
 		</Section>
 		<Link
