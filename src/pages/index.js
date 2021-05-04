@@ -1,9 +1,10 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Text, Strong, Hr, Button } from "@quarkly/widgets";
+import { Theme, Link, Image, Text, Strong, Hr, Button, Icon, Box } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Section, Stack } from "@quarkly/components";
+import { GoPlus } from "react-icons/go";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
@@ -344,7 +345,7 @@ export default (() => {
 			sm-min-height="auto"
 			display="flex"
 			flex-direction="column"
-			background="url(https://uploads.quarkly.io/6081891b123639001f37cb52/images/confronto_Tavola%20disegno%201%20copia%206.svg?v=2021-05-03T11:17:11.636Z) 0% -10%/contain,#f7f9fc"
+			background="url(https://uploads.quarkly.io/6081891b123639001f37cb52/images/confronto_Tavola%20disegno%201%20copia%206.svg?v=2021-05-03T11:17:11.636Z),#f7f9fc"
 			margin="-330px 0 0 0"
 		>
 			<Override slot="SectionContent" margin="-80px 64px 0px 64px" />
@@ -391,6 +392,138 @@ export default (() => {
 					<Text margin="0px" />
 				</StackItem>
 			</Stack>
+		</Section>
+		<Section
+			background-color="--dark"
+			text-align="center"
+			padding="32px 0"
+			background="#f7f9fc"
+			margin="-100px 0 0 0"
+		>
+			<Override slot="SectionContent" border-width="0px" />
+			<Text
+				border-color="#ffffff"
+				font="600 42px --fontFamily-googleInter"
+				text-align="left"
+				color="#000000"
+				padding="0px 0px 0px 0px"
+				margin="16px 0px 50px 0px"
+			>
+				{"     "}Domande frequenti
+			</Text>
+		</Section>
+		<Section color="--dark" background="#f7f9fc" margin="-100px 0 0 0" padding="24px 0 50px 0">
+			<Box
+				margin="36px 0 0 0"
+				padding="0 0 0 54px"
+				sm-padding="54px 0 0 0"
+				position="relative"
+				max-width="800px"
+			>
+				<Icon
+					position="absolute"
+					top="0"
+					left="0"
+					size="36px"
+					color="#1ed761"
+					category="go"
+					icon={GoPlus}
+				/>
+				<Text as="h3" font="normal 500 20px/1.2 --fontFamily-googleInter" margin="10px 0">
+					Cosa posso richiedere?
+				</Text>
+				<Text as="p" margin="10px 0" color="--greyD2" font="20px --fontFamily-googleInter">
+					Puoi richiederci{" "}
+					<Strong>
+						grafiche statiche o animate
+					</Strong>
+					{" "}( in base al tuo piano ) per Facebook, Instagram, Twitter, YouTube e tutti gli altri social, immagini per il tuo e-commerce o blog, banner per siti web e molto altro ancora.
+				</Text>
+			</Box>
+			<Box
+				margin="36px 0 0 0"
+				padding="0 0 0 54px"
+				sm-padding="54px 0 0 0"
+				position="relative"
+				max-width="800px"
+			>
+				<Icon
+					position="absolute"
+					top="0"
+					left="0"
+					size="36px"
+					color="#1ed761"
+					category="go"
+					icon={GoPlus}
+				/>
+				<Text as="h3" font="normal 500 20px/1.2 --fontFamily-googleInter" margin="10px 0">
+					Utilizzate stesse grafiche per più clienti?
+				</Text>
+				<Text as="p" margin="10px 0" color="--greyD2" font="20px --fontFamily-googleInter">
+					Ovviamente no! Ciascuno dei nostri progetti è fatto apposta per te e viene realizzato in base al tuo brand, alla tua richiesta ed al messaggio che vuoi trasmettere. Inoltre, è{" "}
+					<Strong>
+						tuo al 100%
+					</Strong>
+					.
+				</Text>
+			</Box>
+			<Box
+				margin="36px 0 0 0"
+				padding="0 0 0 54px"
+				sm-padding="54px 0 0 0"
+				position="relative"
+				max-width="800px"
+			>
+				<Icon
+					position="absolute"
+					top="0"
+					left="0"
+					size="36px"
+					color="#1ed761"
+					category="go"
+					icon={GoPlus}
+				/>
+				<Text as="h3" font="normal 500 20px/1.2 --fontFamily-googleInter" margin="10px 0">
+					Come funziona l'abbonamento?
+				</Text>
+				<Text as="p" margin="10px 0" color="--greyD2" font="20px --fontFamily-googleInter">
+					Completata l'iscrizione, usufruirai  di tutti i servizi contenuti all’interno del tipo di piano acquistato fino al prossimo rinnovo.{" "}
+					<Strong
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+					>
+						In qualsiasi momento
+					</Strong>
+					, avrai la possibilità di fare sia upgrade che downgrade del tuo piano attuale e di disdire l'abbonamento!
+				</Text>
+			</Box>
+			<Box
+				margin="36px 0 0 0"
+				padding="0 0 0 54px"
+				sm-padding="54px 0 0 0"
+				position="relative"
+				max-width="800px"
+			>
+				<Icon
+					position="absolute"
+					top="0"
+					left="0"
+					size="36px"
+					color="#1ed761"
+					category="go"
+					icon={GoPlus}
+				/>
+				<Text as="h3" font="normal 500 20px/1.2 --fontFamily-googleInter" margin="10px 0">
+					Quali metodi di pagamento accettate?
+				</Text>
+				<Text as="p" margin="10px 0" color="--greyD2" font="20px --fontFamily-googleInter">
+					Accettiamo i seguenti tipi di pagamenti: paypal e tutte le carte di credito.
+				</Text>
+			</Box>
 		</Section>
 		<Section background-color="--dark" text-align="center" padding="32px 0">
 			<Link
