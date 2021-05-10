@@ -253,7 +253,7 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Section sm-padding="40px 0" background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/6081891b123639001f37cb52/images/home2.png?v=2021-05-03T09:36:07.797Z) 100% 0% /100% no-repeat">
+		<Section sm-padding="40px 0" background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/6081891b123639001f37cb52/images/home2.png?v=2021-05-03T09:36:07.797Z) 100% 0% /100% no-repeat" padding="24px 0 100px 0">
 			<Stack background="#">
 				<StackItem width="50%" lg-width="100%">
 					<Override slot="StackItemContent" flex-direction="column" />
