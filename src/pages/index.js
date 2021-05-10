@@ -273,7 +273,7 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Section sm-padding="40px 0" background="url(https://uploads.quarkly.io/6081891b123639001f37cb52/images/pricing.png?v=2021-05-03T10:30:25.059Z) 0% 45%/contain no-repeat,#f7f9fc">
+		<Section sm-padding="40px 0" background="url(https://uploads.quarkly.io/6081891b123639001f37cb52/images/pricing.svg?v=2021-05-10T15:44:27.091Z) 0% 45%/contain no-repeat,#f7f9fc">
 			<Override slot="SectionContent" margin="0px 64px 0px 64px" padding="0px 0px 0 0px" />
 			<Text
 				border-color="#ffffff"
@@ -305,7 +305,7 @@ export default (() => {
 					tutte le dimensioni.
 				</Strong>
 			</Text>
-			<Stack margin="50px -16px px -16px">
+			<Stack margin="50px -16px px -7px">
 				<StackItem width="50%" lg-width="100%">
 					<Override slot="StackItemContent" color="--dark" flex-direction="column" />
 					<Button
@@ -314,7 +314,20 @@ export default (() => {
 						background="#1ed761"
 						flex="initial"
 						align-self="flex-start"
-						margin="245px 0px 0px 120px"
+						margin="270px 0px 0px 100px"
+					>
+						Prova ora -&gt;
+					</Button>
+				</StackItem>
+				<StackItem width="50%" lg-width="100%">
+					<Override slot="StackItemContent" color="--dark" flex-direction="column" />
+					<Button
+						border-radius="100px"
+						font="normal 400 14px/1.5 --fontFamily-googleInter"
+						background="#1ed761"
+						flex="initial"
+						align-self="flex-start"
+						margin="270px 0px 0px 15px"
 					>
 						Prova ora -&gt;
 					</Button>
@@ -322,17 +335,6 @@ export default (() => {
 				<StackItem width="50%" lg-width="100%">
 					<Override slot="StackItemContent" flex-direction="column" />
 					<Stack>
-						<Button
-							border-radius="100px"
-							font="normal 300 15px/1.5 --fontFamily-googleInter"
-							background="#1ed761"
-							flex="initial"
-							text-align="left"
-							align-self="flex-start"
-							margin="260px 0px 0px 30px"
-						>
-							Prova ora -&gt;
-						</Button>
 						<StackItem width="100%" lg-width="33.3%" md-width="100%" color="rgba(0, 0, 0, 0)">
 							<Override slot="StackItemContent" padding-bottom="100%" margin="-50px 0px 0px 0px" />
 						</StackItem>
