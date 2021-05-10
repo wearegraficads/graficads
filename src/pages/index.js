@@ -274,7 +274,7 @@ export default (() => {
 			</Stack>
 		</Section>
 		<Section sm-padding="40px 0" background="url(https://uploads.quarkly.io/6081891b123639001f37cb52/images/pricing.svg?v=2021-05-10T15:44:27.091Z) 0% 41% no-repeat border-box,#f7f9fc">
-			<Override slot="SectionContent" margin="0px 64px 0px 64px" padding="0px 0px 0 0px" />
+			<Override slot="SectionContent" margin="0px 64px -10px 80px" padding="0px 0px 0 0px" />
 			<Text
 				border-color="#ffffff"
 				font="600 42px --fontFamily-googleInter"
@@ -409,7 +409,7 @@ export default (() => {
 				{"     "}Domande frequenti
 			</Text>
 		</Section>
-		<Section color="--dark" background="#f7f9fc" margin="-100px 0 0 0" padding="24px 0 50px 0">
+		<Section color="--dark" background="#f7f9fc" margin="-100px 0 0 0" padding="24px 0 50px 50px">
 			<Box
 				margin="36px 0 0 0"
 				padding="0 0 0 54px"
